@@ -1,0 +1,30 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.banner-section {
+    padding-left: 150px;
+    padding-right: 240px;
+  display: flex;
+  background:rgba(229, 84, 115, 0.10) ;
+}
+.banner-title{
+    justify-content: center;
+    padding-top: 57px;
+    padding-right: 97px;
+}
+.banner-text{
+   margin-top:32px ; 
+   margin-bottom: 32px;
+}
+.btn {
+  color: #fff;
+ border: none;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+}
+.img-section{
+    padding-top: 50px;
+}
