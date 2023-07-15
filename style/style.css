@@ -1,30 +1,80 @@
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 .banner-section {
-    padding-left: 150px;
-    padding-right: 240px;
+  padding-left: 150px;
+  padding-right: 240px;
   display: flex;
-  background:rgba(229, 84, 115, 0.10) ;
+  background: rgba(229, 84, 115, 0.1);
 }
-.banner-title{
-    justify-content: center;
-    padding-top: 57px;
-    padding-right: 97px;
+.banner-title {
+  justify-content: center;
+  padding-top: 57px;
+  padding-right: 97px;
 }
-.banner-text{
-   margin-top:32px ; 
-   margin-bottom: 32px;
+.banner-text {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .btn {
   color: #fff;
- border: none;
+  border: none;
   padding: 20px 43px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 8px;
   background: #e55473;
 }
-.img-section{
-    padding-top: 50px;
+.img-section {
+  padding-top: 50px;
 }
+
+/* second section */
+.second-section-title {
+  text-align: center;
+  margin-top: 70px;
+}
+.second-section-p {
+  padding-left: 663;
+  padding-right: 663;
+}
+.images{
+    text-align: center;
+    margin-left: 100px;
+  padding-right: 100px;
+    display: flex;
+}
+.image-1 {
+  padding-top: 100px;
+  padding-left: 35px;
+  padding-right: 35px;
+  flex-shrink: 0;
+  width: 304px;
+  height: 428px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.image-2{
+    margin-left: 10px;
+    padding-top: 157px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 18px;
+    flex-shrink: 0;
+    width: 304px;
+    height: 352px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+  }
+  .image-3{
+    margin-left: 10px;
+    padding-top:55px;
+    padding-left: 35px;
+    padding-right: 35px;
+    flex-shrink: 0;
+    width: 304px;
+    height: 472px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+  }
+  
